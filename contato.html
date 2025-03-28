@@ -6,13 +6,18 @@
 		<meta name="description" content="Projeto Portfólio">
 		<meta name="author" content="Generation Brasil">
 		<meta name="keywords" content="HTML, CSS, JavaScript">
+
+		<link rel="icon" type="image/svg" href="./assets/img/favicon.svg"/>
+
+		<link rel="stylesheet" href="./assets/css/style.css">
+
 		<title>Meu Perfil</title>
-	</head>
+		</head>
 	<body>
 		
 		<header>
 			
-			<div id="header_content">
+			<div id="header_content" class="flex">
 				
 				<div id="titulo">
 					
@@ -38,10 +43,8 @@
 		</header>
 
 		
-		<main>
-
-			
-             <section id="contact">
+		<main>		
+             <section id="contact" class="flex">
 
                 
                 <form action="#" method="submit" id="formulario">
@@ -88,10 +91,12 @@
                 </form>
 
                
-                <article id="mapa">
+                <article id="mapa" class="flex_start">
                     
-                    <p>Av. Paulista, 100</p>
-                    <p>São Paulo - SP</p>
+                    <div id="endereco">
+						<p>Av. Paulista, 100</p>
+                    	<p>São Paulo - SP</p>
+					</div>
                 
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.106696296001!2d-46.65390548535577!3d-23.564611167596592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c7f481fd9f%3A0x9982bfde4df54830!2sAv.%20Paulista%2C%201000%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-100!5e0!3m2!1spt-BR!2sbr!4v1594056507065!5m2!1spt-BR!2sbr"
@@ -112,7 +117,7 @@
 		</main>
 
 		
-		<footer>
+		<footer class="flex">
 
 			
             <section id="redes_sociais">
